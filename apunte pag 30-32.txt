@@ -1,0 +1,8 @@
+metiendo -> :info . 
+sale ->
+infixr 9 .
+(.) :: (a -> b) -> (c -> a) -> c -> b
+
+En ese trozo, primero se hace la función (c -> a), luego (a -> b) y por 
+último c -> b.
+a -> b es una función donde a devuelve b.
